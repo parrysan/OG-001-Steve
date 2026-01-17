@@ -1,0 +1,298 @@
+{
+    "global": {
+        "siteName": "Steve Apps",
+        "contactEmail": "steve@steveapps.co",
+        "socials": [
+            {
+                "platform": "LinkedIn",
+                "url": "https://linkedin.com/in/steveapps"
+            }
+        ],
+        "navigation": [
+            {
+                "label": "About",
+                "path": "/about"
+            },
+            {
+                "label": "Clients",
+                "path": "/clients"
+            }
+        ],
+        "cta": {
+            "primary": "Get In Touch",
+            "bookingLink": "/contact"
+        }
+    },
+    "home": {
+        "hero": {
+            "eyebrow": "LEADERSHIP COMMUNICMATCH CONTENT COACH",
+            "headline": "Leadership Communication for the Moments That Matter",
+            "subtext": "I help leaders communicate with clarity and confidence.",
+            "imageAlt": "Steve Apps - Leadership Coach"
+        },
+        "credibility": {
+            "items": [
+                "25+ years’ experience",
+                "1,000+ executive coaching hours",
+                "Board-level & global clients",
+                "Business Psychologist (CBCP, FCIPD, FABP)"
+            ]
+        },
+        "whoIWorkWith": {
+            "title": "Who I Work With",
+            "points": [
+                "Board members and executive teams",
+                "Leaders preparing for high-visibility moments",
+                "Leaders navigating complexity, pressure, or change",
+                "Organisations investing in leadership impact, not pres"
+            ]
+        },
+        "journey": {
+            "title": "Your Communication Journey",
+            "steps": [
+                {
+                    "step": "1",
+                    "title": "Awareness",
+                    "desc": "Understand your current patterns\nand impact"
+                },
+                {
+                    "step": "2",
+                    "title": "Clarity",
+                    "desc": "Structure your message\nwith precision"
+                },
+                {
+                    "step": "3",
+                    "title": "Confidence",
+                    "desc": "Master your physical and\nvocal presence"
+                },
+                {
+                    "step": "4",
+                    "title": "Impact",
+                    "desc": "Lead with presence in\ncritical moments"
+                }
+            ]
+        },
+        "coaching": {
+            "title": "Expert Coaching In Four Areas",
+            "items": [
+                {
+                    "title": "Town Hall & Conference Speaker Coaching",
+                    "desc": "Inspire large audiences with authentic storytelling, vocal presence, and a calm disposition."
+                },
+                {
+                    "title": "Involving & Influencing Others",
+                    "desc": "Master the intricate dynamics of influencing peers, board members, and stakeholders."
+                },
+                {
+                    "title": "Communicating Change",
+                    "desc": "Navigate critical organizational shifts with clear messaging that builds trust. Handle question and answer sessions impactfully."
+                },
+                {
+                    "title": "Storytelling for Leaders",
+                    "desc": "Release the storyteller within to dramatically shift your impact."
+                }
+            ]
+        },
+        "experience": {
+            "title": "What You'll Experience",
+            "cards": [
+                {
+                    "title": "Curiosity",
+                    "subtitle": "I am genuinely interested in finding out what’s on your mind."
+                },
+                {
+                    "title": "Partnership",
+                    "subtitle": "We figure things out together."
+                },
+                {
+                    "title": "Feedback",
+                    "subtitle": "I share my unfiltered perceptions."
+                }
+            ]
+        },
+        "proof": {
+            "title": "Trusted by Global Leaders",
+            "logos": [
+                {
+                    "name": "L'Oréal",
+                    "image": "/assets/logos/logo_loreal_v2.png"
+                },
+                {
+                    "name": "Coca-Cola",
+                    "image": "/assets/logos/logo_coca_cola.png"
+                },
+                {
+                    "name": "IBM",
+                    "image": "/assets/logos/logo_2.png"
+                },
+                {
+                    "name": "Microsoft",
+                    "image": "/assets/logos/logo_microsoft.png"
+                },
+                {
+                    "name": "BP",
+                    "image": "/assets/logos/logo_bp_new.png"
+                },
+                {
+                    "name": "Barclays",
+                    "image": "/assets/logos/logo_barclays_new.png"
+                },
+                {
+                    "name": "Vodafone",
+                    "image": "/assets/logos/logo_vodafone_v2.png"
+                },
+                {
+                    "name": "Mars",
+                    "image": "/assets/logos/logo_mars_v3.png"
+                },
+                {
+                    "name": "Johnson & Johnson",
+                    "image": "/assets/logos/logo_jnj_v2.png"
+                }
+            ]
+        },
+        "differentiation": {
+            "text": "This is leadership, expressed through communication."
+        },
+        "insights": {
+            "title": "Current Perspectives",
+            "body": "Occasional insights on leadership, psychology and communication.",
+            "linkText": "Read on LinkedIn",
+            "linkUrl": "https://www.linkedin.com/in/steveapps/"
+        },
+        "finalCta": {
+            "title": "Ready to Lead with Impact?",
+            "desc": "Let's explore how coaching can transform your leadership\ncommunication in critical moments."
+        }
+    },
+    "clients": {
+        "title": "Trusted by Global Organisations",
+        "description": "I have had the privilege of working with leaders from these outstanding organizations.",
+        "list": [
+            {
+                "name": "AXA",
+                "logo": "/assets/axa-logo.png"
+            },
+            "Banque Havilland",
+            {
+                "name": "Barclays",
+                "logo": "/assets/barclays-logo.png"
+            },
+            {
+                "name": "Barry Callebaut",
+                "logo": "/assets/barry-callebaut-logo.png"
+            },
+            {
+                "name": "Bic",
+                "logo": "/assets/bic-logo.png"
+            },
+            {
+                "name": "Bio Mérieux",
+                "logo": "/assets/biomerieux-logo.png"
+            },
+            {
+                "name": "BP",
+                "logo": "/assets/bp-logo.png"
+            },
+            "Brightwell",
+            {
+                "name": "Coca-Cola",
+                "logo": "/assets/coca-cola-logo.png"
+            },
+            {
+                "name": "CMS",
+                "logo": "/assets/cms-logo.png"
+            },
+            {
+                "name": "Crown",
+                "logo": "/assets/crown-logo.png"
+            },
+            "DS Smith",
+            "EBRD",
+            "EIB",
+            "Ernst & Young",
+            {
+                "name": "Eli Lilly",
+                "logo": "/assets/lilly-logo.png"
+            },
+            "Ericsson",
+            "Ferroglobe",
+            "Finbourne",
+            "Henkel",
+            "Hikma",
+            "Honda",
+            "HSBC",
+            "IBM",
+            "Informa",
+            "JDE",
+            "Jeito",
+            "J&J",
+            "Johnson Matthey",
+            "Lindt & Sprungli",
+            "Lloyds Banking Group",
+            "Lloyds Register",
+            "L'Oreal",
+            "Macquarie",
+            "Mars",
+            "Merck",
+            "Microsoft",
+            "MVF",
+            "Natixis",
+            "Novo Nordisk",
+            "Orangina-Schweppes Group",
+            "Pernod-Ricard",
+            "Precision Global",
+            "Sentinelone",
+            "Thorogood Consulting",
+            "The Trainline",
+            "Universal Music",
+            "Vodafone",
+            "Zurich"
+        ]
+    },
+    "about": {
+        "hero": {
+            "headline": "About Steve",
+            "subtext": "Business Psychologist & Leadership Coach"
+        },
+        "bio": [
+            "Steve Apps is a business psychologist and leadership communication coach with over 25 years’ experience working with senior leaders, boards and executive teams across the globe. He is known for a calm, pragmatic style and for helping leaders perform at their best in moments that matter most.",
+            "His work focuses on leadership expressed through communication — whether that is speaking to large audiences, influencing in complex environments, or navigating pressure, scrutiny and change. Steve connects psychological theory with real-world leadership demands, always with a practical and commercial lens."
+        ],
+        "cta": {
+            "text": "View full career history on LinkedIn",
+            "url": "https://www.linkedin.com/in/steveapps/"
+        },
+        "howIWork": {
+            "title": "How I Work",
+            "points": [
+                "Stretching, supportive and practical",
+                "Focused on real situations, not theory for its own sake",
+                "Confidential, adult-to-adult partnership",
+                "Grounded in psychology, applied to real business contexts"
+            ]
+        },
+        "milestones": [],
+        "badges": [
+            {
+                "id": "fcipd",
+                "image": "https://eu.api.accredible.com/v1/frontend/credential_website_embed_image/badge/15329301",
+                "alt": "CIPD Chartered Fellow"
+            },
+            {
+                "id": "abp-cbcp",
+                "image": "/assets/abp-cbcp-logo.png",
+                "alt": "Certified Business Coaching Psychologist"
+            },
+            {
+                "id": "abp-fellow",
+                "image": "/assets/abp-fellow-logo.png",
+                "alt": "ABP Fellow"
+            }
+        ]
+    },
+    "contact": {
+        "title": "Let's Talk",
+        "desc": "Book a 20 minute intro."
+    }
+}
