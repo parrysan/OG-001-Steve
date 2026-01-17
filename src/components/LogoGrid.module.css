@@ -1,0 +1,88 @@
+.wrapper {
+    /* margin-top: var(--space-xl); Removed for alignment in new grid layout */
+    text-align: left;
+}
+
+.title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1.1;
+    color: var(--color-text);
+    margin-bottom: var(--space-lg);
+    letter-spacing: -0.02em;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-md);
+}
+
+.logoItem {
+    background-color: var(--color-bg-alt);
+    border: 1px solid var(--color-border);
+    border-radius: 4px;
+    padding: var(--space-lg) var(--space-md);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all var(--transition-fast);
+    min-height: 100px;
+}
+
+.logoItem:hover {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    border-color: var(--color-section-teal);
+    transform: translateY(-2px);
+}
+
+.logoText {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 1.125rem;
+    color: var(--color-text-muted);
+    text-align: center;
+}
+
+.logoImage {
+    max-width: 80%;
+    max-height: 60%;
+    object-fit: contain;
+    display: block;
+    filter: grayscale(100%);
+    /* Optional: make logos black/white for consistency */
+    opacity: 0.8;
+    transition: all var(--transition-fast);
+}
+
+.logoItem:hover .logoImage {
+    filter: grayscale(0%);
+    opacity: 1;
+    transform: scale(1.05);
+    /* Slight zoom */
+}
+
+@media (max-width: 900px) {
+    .grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .title {
+        font-size: 2rem;
+    }
+
+    .logoItem {
+        padding: var(--space-md);
+        min-height: 80px;
+    }
+
+    .logoText {
+        font-size: 1rem;
+    }
+}
