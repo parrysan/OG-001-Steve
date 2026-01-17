@@ -53,8 +53,8 @@
     max-width: 100%;
     height: auto;
     border-radius: 8px 8px 0 0;
-    /* Slight rounding on top */
-    /* Remove mask in favor of clean cutout look for now */
+    /* Subtle drop shadow for depth and polish */
+    filter: drop-shadow(0 20px 40px rgba(0, 0, 0, 0.2));
 }
 
 

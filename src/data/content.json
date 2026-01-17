@@ -25,7 +25,7 @@
     },
     "home": {
         "hero": {
-            "eyebrow": "LEADERSHIP COMMUNICMATCH CONTENT COACH",
+            "eyebrow": "LEADERSHIP COMMUNICATION COACH",
             "headline": "Leadership Communication for the Moments That Matter",
             "subtext": "I help leaders communicate with clarity and confidence.",
             "imageAlt": "Steve Apps - Leadership Coach"
@@ -44,7 +44,7 @@
                 "Board members and executive teams",
                 "Leaders preparing for high-visibility moments",
                 "Leaders navigating complexity, pressure, or change",
-                "Organisations investing in leadership impact, not pres"
+                "Organisations investing in leadership impact"
             ]
         },
         "journey": {
@@ -115,39 +115,48 @@
             "logos": [
                 {
                     "name": "L'Oréal",
-                    "image": "/assets/logos/logo_loreal_v2.png"
+                    "image": "/assets/logos/logo_loreal_v2.png",
+                    "alt": "L'Oréal company logo"
                 },
                 {
                     "name": "Coca-Cola",
-                    "image": "/assets/logos/logo_coca_cola.png"
+                    "image": "/assets/logos/logo_coca_cola.png",
+                    "alt": "Coca-Cola company logo"
                 },
                 {
                     "name": "IBM",
-                    "image": "/assets/logos/logo_2.png"
+                    "image": "/assets/logos/logo_2.png",
+                    "alt": "IBM company logo"
                 },
                 {
                     "name": "Microsoft",
-                    "image": "/assets/logos/logo_microsoft.png"
+                    "image": "/assets/logos/logo_microsoft.png",
+                    "alt": "Microsoft company logo"
                 },
                 {
                     "name": "BP",
-                    "image": "/assets/logos/logo_bp_new.png"
+                    "image": "/assets/logos/logo_bp_new.png",
+                    "alt": "BP company logo"
                 },
                 {
                     "name": "Barclays",
-                    "image": "/assets/logos/logo_barclays_new.png"
+                    "image": "/assets/logos/logo_barclays_new.png",
+                    "alt": "Barclays company logo"
                 },
                 {
                     "name": "Vodafone",
-                    "image": "/assets/logos/logo_vodafone_v2.png"
+                    "image": "/assets/logos/logo_vodafone_v2.png",
+                    "alt": "Vodafone company logo"
                 },
                 {
                     "name": "Mars",
-                    "image": "/assets/logos/logo_mars_v3.png"
+                    "image": "/assets/logos/logo_mars_v3.png",
+                    "alt": "Mars company logo"
                 },
                 {
                     "name": "Johnson & Johnson",
-                    "image": "/assets/logos/logo_jnj_v2.png"
+                    "image": "/assets/logos/logo_jnj_v2.png",
+                    "alt": "Johnson & Johnson company logo"
                 }
             ]
         },
@@ -161,7 +170,7 @@
             "linkUrl": "https://www.linkedin.com/in/steveapps/"
         },
         "finalCta": {
-            "title": "Ready to Lead with Impact?",
+            "title": "Ready to lead with impact?",
             "desc": "Let's explore how coaching can transform your leadership\ncommunication in critical moments."
         }
     },

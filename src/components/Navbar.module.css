@@ -4,7 +4,6 @@
     top: 0;
     width: 100%;
     background-color: #000000;
-    /* Inverted Black Background */
     z-index: 1000;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
@@ -22,15 +21,13 @@
     font-size: 1.25rem;
     letter-spacing: -0.02em;
     color: #ffffff;
-    /* White Logo */
     z-index: 1001;
     text-decoration: none;
     transition: color var(--transition-fast);
 }
 
 .logo:hover {
-    color: #cccccc;
-    /* Slight grey on hover */
+    color: rgba(255, 255, 255, 0.8);
 }
 
 .desktopMenu {
@@ -48,44 +45,69 @@
     font-size: 0.9375rem;
     font-weight: 500;
     color: rgba(255, 255, 255, 0.7);
-    /* Muted White */
-    transition: color var(--transition-fast);
+    transition: all var(--transition-fast);
+    position: relative;
+    padding-bottom: 2px;
 }
 
-.link:hover,
+/* Improved hover state for accessibility */
+.link:hover {
+    color: #ffffff;
+}
+
+.link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: width 0.3s ease;
+}
+
+.link:hover::after {
+    width: 100%;
+}
+
+/* Active state indicator */
 .active {
     color: #ffffff;
-    /* Active White */
+    font-weight: 600;
 }
 
 .link,
 .cta {
     position: relative;
-    /* To anchor the absolute triangle */
     overflow: visible;
-    /* Ensure triangle isn't clipped if something changes */
 }
 
-.active::after,
-.activeCta::after {
+.active::before {
     content: '';
     position: absolute;
-    /* Center horizontal */
     left: 50%;
-    transform: translateX(-50%);
-
-    /* Position at the very bottom of the header */
-    /* Header is 80px high, items are centered. Link center is at 40px. */
-    /* top: 50% puts it at 40px. Adding 40px pushes it to 80px. */
-    top: calc(50% + 40px);
-
-    /* Triangle shape */
+    margin-left: -10px;
+    top: calc(50% + 39px);
     width: 0;
     height: 0;
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
     border-top: 10px solid #000000;
-    /* Matches header background */
+    z-index: 9999;
+    pointer-events: none;
+}
+
+.activeCta::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    margin-left: -10px;
+    top: calc(50% + 39px);
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #000000;
     z-index: 9999;
     pointer-events: none;
 }
@@ -94,7 +116,15 @@
     display: none;
     z-index: 1001;
     color: #ffffff;
-    /* White Hamburger */
+    background: none;
+    border: none;
+    padding: var(--space-sm);
+    cursor: pointer;
+    transition: opacity var(--transition-fast);
+}
+
+.mobileToggle:hover {
+    opacity: 0.7;
 }
 
 /* Mobile Styles */

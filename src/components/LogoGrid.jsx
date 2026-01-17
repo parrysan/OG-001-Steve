@@ -10,11 +10,17 @@ const LogoGrid = ({ title, logos }) => {
                     const isObject = typeof logo === 'object' && logo !== null;
                     const name = isObject ? logo.name : logo;
                     const image = isObject ? logo.image : null;
+                    const alt = isObject && logo.alt ? logo.alt : `${name} company logo`;
 
                     return (
                         <div key={index} className={styles.logoItem}>
                             {image ? (
-                                <img src={image} alt={`${name} logo`} className={styles.logoImage} />
+                                <img
+                                    src={image}
+                                    alt={alt}
+                                    className={styles.logoImage}
+                                    loading="lazy"
+                                />
                             ) : (
                                 <span className={styles.logoText}>{name}</span>
                             )}
