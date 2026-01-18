@@ -176,7 +176,7 @@
     },
     "clients": {
         "title": "Trusted by Global Organisations",
-        "description": "I have had the privilege of working with leaders from these outstanding organizations.",
+        "description": "",
         "list": [
             {
                 "name": "AXA",
@@ -185,7 +185,7 @@
             "Banque Havilland",
             {
                 "name": "Barclays",
-                "logo": "/assets/barclays-logo.png"
+                "logo": "/assets/barclays-logo-updated.png"
             },
             {
                 "name": "Barry Callebaut",
@@ -219,7 +219,11 @@
             "DS Smith",
             "EBRD",
             "EIB",
-            "Ernst & Young",
+            {
+                "name": "Ernst & Young",
+                "logo": "/assets/ey-logo.png",
+                "alt": "Ernst & Young logo"
+            },
             {
                 "name": "Eli Lilly",
                 "logo": "/assets/lilly-logo.png"
@@ -230,21 +234,45 @@
             "Henkel",
             "Hikma",
             "Honda",
-            "HSBC",
-            "IBM",
+            {
+                "name": "HSBC",
+                "logo": "/assets/hsbc-logo.png",
+                "alt": "HSBC logo"
+            },
+            {
+                "name": "IBM",
+                "logo": "/assets/ibm-logo.png",
+                "alt": "IBM logo"
+            },
             "Informa",
             "JDE",
             "Jeito",
             "J&J",
             "Johnson Matthey",
             "Lindt & Sprungli",
-            "Lloyds Banking Group",
+            {
+                "name": "Lloyds Banking Group",
+                "logo": "/assets/lloyds-logo.png",
+                "alt": "Lloyds Banking Group logo"
+            },
             "Lloyds Register",
-            "L'Oreal",
+            {
+                "name": "L'Oreal",
+                "logo": "/assets/loreal-logo-updated.png",
+                "alt": "L'Oreal logo"
+            },
             "Macquarie",
-            "Mars",
+            {
+                "name": "Mars",
+                "logo": "/assets/mars-logo.png",
+                "alt": "Mars logo"
+            },
             "Merck",
-            "Microsoft",
+            {
+                "name": "Microsoft",
+                "logo": "/assets/microsoft-logo-new.png",
+                "alt": "Microsoft logo"
+            },
             "MVF",
             "Natixis",
             "Novo Nordisk",
@@ -253,10 +281,26 @@
             "Precision Global",
             "Sentinelone",
             "Thorogood Consulting",
-            "The Trainline",
-            "Universal Music",
-            "Vodafone",
-            "Zurich"
+            {
+                "name": "The Trainline",
+                "logo": "/assets/trainline-logo.png",
+                "alt": "The Trainline logo"
+            },
+            {
+                "name": "Universal Music",
+                "logo": "/assets/universal-music-logo.png",
+                "alt": "Universal Music logo"
+            },
+            {
+                "name": "Vodafone",
+                "logo": "/assets/vodafone-logo-new.png",
+                "alt": "Vodafone logo"
+            },
+            {
+                "name": "Zurich",
+                "logo": "/assets/zurich-logo.png",
+                "alt": "Zurich logo"
+            }
         ]
     },
     "about": {
@@ -265,7 +309,7 @@
             "subtext": "Business Psychologist & Leadership Coach"
         },
         "bio": [
-            "Steve Apps is a business psychologist and leadership communication coach with over 25 years’ experience working with senior leaders, boards and executive teams across the globe. He is known for a calm, pragmatic style and for helping leaders perform at their best in moments that matter most.",
+            "Over 25 years’ experience working with leaders at all levels, boards and executive teams across the globe. He is known for a calm, pragmatic style and for helping leaders perform at their best in moments that matter most.",
             "His work focuses on leadership expressed through communication — whether that is speaking to large audiences, influencing in complex environments, or navigating pressure, scrutiny and change. Steve connects psychological theory with real-world leadership demands, always with a practical and commercial lens."
         ],
         "cta": {

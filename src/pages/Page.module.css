@@ -122,6 +122,18 @@
     border-color: var(--color-border);
 }
 
+.clientCard img {
+    filter: grayscale(100%);
+    opacity: 0.8;
+    transition: all 0.3s ease;
+}
+
+.clientCard:hover img {
+    filter: grayscale(0%);
+    opacity: 1;
+    transform: scale(1.05);
+}
+
 .howIWorkGrid {
     display: grid;
     grid-template-columns: 1fr 1fr;

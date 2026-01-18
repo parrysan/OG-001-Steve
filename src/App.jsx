@@ -5,6 +5,7 @@ import About from './pages/About';
 import Clients from './pages/Clients';
 import Resources from './pages/Resources';
 import Contact from './pages/Contact';
+import DesignSystem from './pages/DesignSystem';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/clients" element={<Clients />} />
           <Route path="/resources" element={<Resources />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/design-system" element={<DesignSystem />} />
         </Routes>
       </Layout>
     </Router>

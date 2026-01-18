@@ -53,7 +53,7 @@ const Contact = () => {
                             }}>
                                 <h3 className="t-h3" style={{ color: 'var(--color-accent)', marginBottom: 'var(--space-sm)' }}>Message Sent</h3>
                                 <p className="t-body" style={{ opacity: 0.9 }}>
-                                    Thank you for reaching out. We will get in touch shortly.
+                                    Thank you for reaching out. I will get in touch shortly.
                                 </p>
                             </div>
                         )}
